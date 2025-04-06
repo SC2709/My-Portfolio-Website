@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+
+    <title>Projects</title>
+</head>
+<style>
+    a button{font-size: 22px;
+        cursor: pointer;
+    }
+    
+    a button:hover{
+        background-color: black;
+        cursor: pointer;
+        color: white;
+        transition: 0.4.8s;
+    }
+    .box3{padding-right: 10px;}
+    #Contact h1{
+        font-size: 30px;
+        
+    }
+
+    #Contact .ContactBox .marquee{
+        font-size: 22px;
+        color:  rgb(79, 2, 51);
+        text-shadow: 2px 2px 4px black;
+    }
+    #Contact .ContactBox .ContactBox1 {
+        padding-top: 50px;
+    border: 4px solid rgb(79, 2, 51);
+    box-shadow: 2px 2px 8px black;
+   width: 600px;
+   height:560px;
+   border-radius: 20px; 
+   font-size: 22px;
+
+    }
+
+
+    #Contact .ContactBox .ContactBox1 :placeholder-shown{
+        font-size: 20px;
+    }
+    #Contact .ContactBox .ContactBox1 .Button{
+        background-color:rgb(79, 2, 51);
+        color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    }
+    #Contact .ContactBox .ContactBox1 .Button:hover{
+        background-color:black;
+        color: white;
+        padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 120px;
+    height: 44px;
+box-shadow: 2px 1px 80px rgb(79, 2, 51);
+    }
+
+    </style>
+    <body>
+   
+        <a href="portfolio.html"><button> <=</button> </a>
+    <header>
+        <div class="box1"> <img src="MyPortfolio.png" alt="Loading...." lang="logo"></div>
+        <!--------------------------------------------------------------------------------------->
+        <div class="box2">
+            <ul class="none"><li><b><a class="nav-link " href="index.html"></b>Home</a></li>
+            <li><b><a class="nav-link "  href="Projects.html"></b>Projects</a></li>
+            <li><b><a class="nav-link" href="About me.html"></b>About me</a></li>
+            <li><b><a class="nav-link active" href="ContactP.html"></b>Contact</a></li></ul>
+        </div>
+
+        <!----------------------------------------------------------------------------------------------->
+        <div class="box3">
+            <ul>
+            <li><b><a class="nav-link" href="Resume.html"></b>Resume</a></li>
+            <li><b><a class="nav-link" href="Skills.html"></b>Skills</a></li>
+            </ul>
+
+        </div>
+    </header>
+    <br><br><br><br><br><br>
+
+    <!---------------------------------------------------------------------------------------------------------------------->
+
+ <section id="Contact"><h1>Contact</h1><br><br><br><br>
+
+    <div class="ContactBox">
+        <!-- <marquee class="marquee" direction=" ">Enter Required Details Below....</marquee><br><br><br> -->
+       
+        <center>
+        <div class="ContactBox1">
+            <form id="contactForm">
+            <marquee class="marquee" behavior=""  direction="">Enter Required Details Below....</marquee><br><br><br>
+            <label for="num1"><b><h>Contact No :</h></b></label>
+                    <input type="number" id="contact" placeholder="Enter Your Contact Number"><br><br><br><br>
+        
+                    <label for="num2"><h><b>Email ID :</b></h></label>
+                        <input type="email" id="email1" placeholder="Enter your Email id"><br><br><br><br>
+        
+                       <label for="num3"><h><b>Address :</b></h></label>
+                        <input type="text" id="address" placeholder="Enter your email id"><br><br><br><br>
+        
+                        <label for="num4"><h><b>Feedback :</b></h></label>
+                        <input type="text" id="feedback" placeholder="Enter your Feedback"><br><br><br><br>
+        
+                       <button class="Button" type="submit">Done</button>
+        
+
+        </form>
+        </center>
+        </div>
+    </div></section>
+
+
+
+
+
+
+    <script src="contact.js"></script>
+
+</body>
+</html>
